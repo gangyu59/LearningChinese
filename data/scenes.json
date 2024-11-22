@@ -11,13 +11,13 @@
             },
             {
                 "speaker": "B",
-                "text": "你好，我姓李，请多关照。",
-                "pingyin": "Ni hao, wo xing Li, qing duo guanzhao."
+                "text": "你好，我叫克里斯，请多关照。",
+                "pingyin": "Ni hao, wo jiao kelisi, qing duo guanzhao."
             }
         ],
         "translation": [
-            "A: Hello, my name is Tanaka, nice to meet you.",
-            "B: Hello, my surname is Li, nice to meet you too."
+            "A: Hello, my name is Kelley, nice to meet you.",
+            "B: Hello, my name is Chris, nice to meet you too."
         ]
     },
     {
@@ -207,6 +207,426 @@
         "translation": [
             "A: Doctor, I have a severe headache.",
             "B: Okay, let me check for you."
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Booking a Hotel",
+        "description": "Making a reservation at a hotel.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "你好，我想订一个单人房。",
+                "pingyin": "Ni hao, wo xiang ding yi ge dan ren fang."
+            },
+            {
+                "speaker": "B",
+                "text": "好的，请问是几晚？",
+                "pingyin": "Hao de, qing wen shi ji wan?"
+            }
+        ],
+        "translation": [
+            "A: Hello, I’d like to book a single room.",
+            "B: Sure, for how many nights?"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Taking a Taxi",
+        "description": "Giving directions to a taxi driver.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "请带我去机场。",
+                "pingyin": "Qing dai wo qu jichang."
+            },
+            {
+                "speaker": "B",
+                "text": "好的，请系好安全带。",
+                "pingyin": "Hao de, qing ji hao anquan dai."
+            }
+        ],
+        "translation": [
+            "A: Please take me to the airport.",
+            "B: Sure, please fasten your seatbelt."
+        ]
+    },
+    {
+        "id": 13,
+        "title": "At a Coffee Shop",
+        "description": "Ordering a coffee.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "我要一杯拿铁，谢谢。",
+                "pingyin": "Wo yao yi bei nate, xiexie."
+            },
+            {
+                "speaker": "B",
+                "text": "好的，请稍等。",
+                "pingyin": "Hao de, qing shao deng."
+            }
+        ],
+        "translation": [
+            "A: I’d like a latte, please.",
+            "B: Sure, please wait a moment."
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Buying Tickets",
+        "description": "Purchasing a train ticket.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "我要一张去上海的票。",
+                "pingyin": "Wo yao yi zhang qu shanghai de piao."
+            },
+            {
+                "speaker": "B",
+                "text": "请问几点的车？",
+                "pingyin": "Qing wen ji dian de che?"
+            }
+        ],
+        "translation": [
+            "A: I need a ticket to Shanghai.",
+            "B: What time is your train?"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "At a Park",
+        "description": "Talking about the weather.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "今天天气真好。",
+                "pingyin": "Jintian tianqi zhen hao."
+            },
+            {
+                "speaker": "B",
+                "text": "是啊，适合散步。",
+                "pingyin": "Shi a, shihe sanbu."
+            }
+        ],
+        "translation": [
+            "A: The weather is great today.",
+            "B: Yes, it’s perfect for a walk."
+        ]
+    },
+    {
+        "id": 16,
+        "title": "At a Post Office",
+        "description": "Sending a package.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "我要寄一个包裹到美国。",
+                "pingyin": "Wo yao ji yi ge baoguo dao meiguo."
+            },
+            {
+                "speaker": "B",
+                "text": "好的，请填写这个表格。",
+                "pingyin": "Hao de, qing tianxie zhe ge biaoge."
+            }
+        ],
+        "translation": [
+            "A: I’d like to send a package to the US.",
+            "B: Sure, please fill out this form."
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Asking About Price",
+        "description": "Discussing the price of an item.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "这个可以便宜一点吗？",
+                "pingyin": "Zhe ge keyi pianyi yi dian ma?"
+            },
+            {
+                "speaker": "B",
+                "text": "可以，45块。",
+                "pingyin": "Keyi, si shi wu kuai."
+            }
+        ],
+        "translation": [
+            "A: Can you make this cheaper?",
+            "B: Sure, 45 yuan."
+        ]
+    },
+    {
+        "id": 18,
+        "title": "At the Bank",
+        "description": "Opening a bank account.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "我想开一个银行账户。",
+                "pingyin": "Wo xiang kai yi ge yinhang zhanghu."
+            },
+            {
+                "speaker": "B",
+                "text": "好的，请提供身份证。",
+                "pingyin": "Hao de, qing tigong shenfenzheng."
+            }
+        ],
+        "translation": [
+            "A: I’d like to open a bank account.",
+            "B: Sure, please provide your ID."
+        ]
+    },
+    {
+        "id": 19,
+        "title": "At the Library",
+        "description": "Asking for a specific book.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "请问这里有《三国演义》吗？",
+                "pingyin": "Qing wen zhe li you San Guo Yan Yi ma?"
+            },
+            {
+                "speaker": "B",
+                "text": "有，在第二排。",
+                "pingyin": "You, zai di er pai."
+            }
+        ],
+        "translation": [
+            "A: Do you have 'Romance of the Three Kingdoms' here?",
+            "B: Yes, it’s on the second shelf."
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Taking the Bus",
+        "description": "Asking for bus directions.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "去博物馆的公交车是几路？",
+                "pingyin": "Qu bowuguan de gongjiao che shi ji lu?"
+            },
+            {
+                "speaker": "B",
+                "text": "坐5路车。",
+                "pingyin": "Zuo wu lu che."
+            }
+        ],
+        "translation": [
+            "A: Which bus goes to the museum?",
+            "B: Take bus number 5."
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Borrowing Something",
+        "description": "Asking to borrow an item.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "我可以借你的笔吗？",
+                "pingyin": "Wo keyi jie ni de bi ma?"
+            },
+            {
+                "speaker": "B",
+                "text": "当然可以。",
+                "pingyin": "Dangran keyi."
+            }
+        ],
+        "translation": [
+            "A: Can I borrow your pen?",
+            "B: Of course."
+        ]
+    },
+    {
+        "id": 22,
+        "title": "At the Gym",
+        "description": "Asking about gym facilities.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "这里有跑步机吗？",
+                "pingyin": "Zhe li you paobu ji ma?"
+            },
+            {
+                "speaker": "B",
+                "text": "有，在角落。",
+                "pingyin": "You, zai jiaoluo."
+            }
+        ],
+        "translation": [
+            "A: Do you have treadmills here?",
+            "B: Yes, in the corner."
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Talking About Hobbies",
+        "description": "Discussing personal hobbies.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "你有什么爱好？",
+                "pingyin": "Ni you shenme aihao?"
+            },
+            {
+                "speaker": "B",
+                "text": "我喜欢打篮球。",
+                "pingyin": "Wo xihuan da lanqiu."
+            }
+        ],
+        "translation": [
+            "A: What are your hobbies?",
+            "B: I like playing basketball."
+        ]
+    },
+    {
+        "id": 24,
+        "title": "At a Pharmacy",
+        "description": "Buying medicine.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "有感冒药吗？",
+                "pingyin": "You ganmao yao ma?"
+            },
+            {
+                "speaker": "B",
+                "text": "有，这里是。",
+                "pingyin": "You, zhe li shi."
+            }
+        ],
+        "translation": [
+            "A: Do you have cold medicine?",
+            "B: Yes, here it is."
+        ]
+    },
+    {
+        "id": 25,
+        "title": "At a Cafe",
+        "description": "Asking for Wi-Fi details.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "请问Wi-Fi密码是什么？",
+                "pingyin": "Qing wen Wi-Fi mima shi shenme?"
+            },
+            {
+                "speaker": "B",
+                "text": "密码是1 2 3 4 5 6。",
+                "pingyin": "Mima shi yi er san si wu liu."
+            }
+        ],
+        "translation": [
+            "A: What is the Wi-Fi password, please?",
+            "B: The password is 123456."
+        ]
+    },
+    {
+        "id": 26,
+        "title": "At the Airport",
+        "description": "Checking in for a flight.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "请问哪里可以值机？",
+                "pingyin": "Qing wen nali keyi zhi ji?"
+            },
+            {
+                "speaker": "B",
+                "text": "请到柜台3。",
+                "pingyin": "Qing dao guitai san."
+            }
+        ],
+        "translation": [
+            "A: Where can I check in, please?",
+            "B: Please go to counter 3."
+        ]
+    },
+    {
+        "id": 27,
+        "title": "At the Supermarket",
+        "description": "Looking for a specific item.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "请问面包在哪里？",
+                "pingyin": "Qing wen mianbao zai nali?"
+            },
+            {
+                "speaker": "B",
+                "text": "在第5排。",
+                "pingyin": "Zai di wu pai."
+            }
+        ],
+        "translation": [
+            "A: Where is the bread, please?",
+            "B: It's in aisle 5."
+        ]
+    },
+    {
+        "id": 28,
+        "title": "At the Train Station",
+        "description": "Asking about platform details.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "开往北京的火车在哪个站台？",
+                "pingyin": "Kai wang Beijing de huoche zai nage zhantai?"
+            },
+            {
+                "speaker": "B",
+                "text": "在2号站台。",
+                "pingyin": "Zai er hao zhantai."
+            }
+        ],
+        "translation": [
+            "A: Which platform is the train to Beijing?",
+            "B: Platform 2."
+        ]
+    },
+    {
+        "id": 29,
+        "title": "At the Office",
+        "description": "Asking about meeting schedules.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "会议几点开始？",
+                "pingyin": "Huiyi ji dian kaishi?"
+            },
+            {
+                "speaker": "B",
+                "text": "上午十点。",
+                "pingyin": "Shangwu shi dian."
+            }
+        ],
+        "translation": [
+            "A: What time does the meeting start?",
+            "B: At 10 AM."
+        ]
+    },
+    {
+        "id": 30,
+        "title": "At a School",
+        "description": "Asking about a class schedule.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "今天有英语课吗？",
+                "pingyin": "Jintian you yingyu ke ma?"
+            },
+            {
+                "speaker": "B",
+                "text": "有，在下午三点。",
+                "pingyin": "You, zai xiawu san dian."
+            }
+        ],
+        "translation": [
+            "A: Is there an English class today?",
+            "B: Yes, at 3 PM."
         ]
     }
 ]
