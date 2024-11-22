@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Chinese</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Learning Chinese</h1>
+        <div class="input-group">
+            <!--
+                <input type="text" id="newSceneTitle" placeholder="New Scene Title">
+            -->
+            <input type="text" id="newSceneDescription" placeholder="Input a new scene, e.g., calling a doctor">
+            <button id="generateSceneBtn">Generate Conversation</button>
+            <!-- 
+                <button id="addSceneBtn">Add</button>
+                <button id="deleteSceneBtn">Delete</button>
+            -->
+        </div>
+    </header>
+    <main>
+        <aside id="sceneListContainer">
+            <h3>Common Scenes</h3>
+            <ul id="sceneList"></ul>
+        </aside>
+        <section id="sceneDetails">
+            <h3 id="sceneTitle">Conversation</h3>
+            <p id="sceneDescription">Scene Description</p>
+            <div id="sceneDialog"></div>
+            <div id="sceneTranslation"></div>
+            <div id="hourglass" style="display: none; font-size: 50px;">⏳</div>
+        </section>
+    </main>
+    <script src="static/js/utils.js"></script>
+    <script src="static/js/app.js"></script>
+</body>
+</html>
