@@ -1,1 +1,218 @@
+/* 全局样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* 页面高度为视口高度 */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* 禁止整个页面滚动 */
+    -webkit-overflow-scrolling: touch; /* 启用平滑滚动（移动设备） */
+}
 
+header {
+    padding: 10px 20px; /* 为 header 添加内边距 */
+    background-color: #f4f4f4;
+    position: sticky; /* 固定在顶部 */
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1); /* 添加底部阴影 */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* 输入框和按钮的布局 */
+.input-group {
+    display: flex;
+    flex-wrap: wrap; /* 在小屏幕时自动换行 */
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px; /* 输入框和按钮之间的间距 */
+}
+
+.input-group input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#newSceneTitle {
+    width: 90px; /* 新场景标题输入框宽度减小一半 */
+    max-width: 100%;
+}
+
+#newSceneDescription {
+    width: 290px; /* 新场景描述输入框占用更多空间 */
+    max-width: 100%;
+}
+
+.input-group button {
+    padding: 6px 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap; /* 防止按钮文字换行 */
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+
+/* 主内容区域 */
+main {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 120px); /* 减去 header 和输入区域的高度 */
+    overflow: hidden; /* 禁止主区域整体滚动 */
+}
+
+/* 左侧清单样式 */
+#sceneListContainer {
+    flex: 0.8; /* 左侧宽度占据1份 */
+    max-width: 260px; /* 限定左侧清单宽度 */
+    background-color: #f9f9f9;
+    overflow-y: auto; /* 左侧清单独立滚动 */
+    border-right: 1px solid #ddd;
+    height: 100%; /* 确保占满父容器高度 */
+    max-height: calc(100vh - 120px); /* 限制最大高度，减去其他区域的高度 */
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch; /* 启用平滑滚动（移动设备） */
+    padding: 0; /* 去除多余内边距 */
+    position: relative; /* 添加相对定位 */
+}
+
+#sceneListContainer h3 {
+    position: sticky; /* 固定标题 */
+    top: 0;
+    z-index: 10; /* 确保标题在最上层 */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#sceneList {
+    list-style: none;
+    margin: 0;
+    padding: 0; /* 去除默认内边距 */
+}
+
+#sceneList li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+#sceneList li:hover {
+    background-color: #f0f0f0;
+}
+
+#sceneList li.selected {
+    background-color: #d0e7ff; /* 高亮选中的场景 */
+    font-weight: bold;
+}
+
+/* 右侧内容框样式 */
+#sceneDetails {
+    flex: 2.2; /* 右侧宽度占据剩余空间 */
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-y: auto; /* 整体可滚动 */
+    background-color: #fff;
+    padding: 5px;
+    padding-top: 0px;
+    height: 100%; /* 确保占满父容器高度 */
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch; /* 启用平滑滚动（移动设备） */
+    border-left: 1px solid #ddd; /* 增加边框与左侧内容分隔 */
+    position: relative;
+}
+
+#sceneDetails h3 {
+    position: sticky; /* 固定标题 */
+    top: 0;
+    z-index: 10; /* 确保标题在最上层 */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 对话框内容 */
+#sceneDialog {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* 翻译部分 */
+#sceneTranslation {
+		display: none; /* 隐藏翻译部分 */
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#sceneTranslation h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #d3ebf5; /* 设置更浅的蓝色背景 */
+    color: black; /* 设置按钮文字颜色为黑色 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b0dff0; /* 鼠标悬停时稍深的浅蓝色 */
+}
+
+.dialog-entry {
+    margin-bottom: 15px;
+}
+
+.play-audio {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.play-audio:hover {
+    background-color: #0056b3;
+}
+
+#hourglass {
+    display: none;
+    font-size: 100px; /* 放大五倍 */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* 确保在最上层 */
+}
