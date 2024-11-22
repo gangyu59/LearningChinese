@@ -1,1 +1,212 @@
-
+[
+    {
+        "id": 1,
+        "title": "Self Introduction",
+        "description": "Introducing yourself for the first time.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "你好，我叫凯丽，很高兴认识你",
+                "pingyin": "Ni hao, wo jiao kaili, hen gaoxin renshi ni."
+            },
+            {
+                "speaker": "B",
+                "text": "你好，我姓李，请多关照。",
+                "pingyin": "Ni hao, wo xing Li, qing duo guanzhao."
+            }
+        ],
+        "translation": [
+            "A: Hello, my name is Tanaka, nice to meet you.",
+            "B: Hello, my surname is Li, nice to meet you too."
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Asking for Time",
+        "description": "Asking what time it is now.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "不好意思，现在几点了？",
+                "pingyin": "Bu haoyisi, xianzai ji dian le?"
+            },
+            {
+                "speaker": "B",
+                "text": "三点半。",
+                "pingyin": "San dian ban."
+            }
+        ],
+        "translation": [
+            "A: Excuse me, what time is it now?",
+            "B: It's half past three."
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Shopping",
+        "description": "Buying something at a store.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "这个多少钱？",
+                "pingyin": "Zhe ge duo shao qian?"
+            },
+            {
+                "speaker": "B",
+                "text": "50元。",
+                "pingyin": "Wu shi yuan."
+            }
+        ],
+        "translation": [
+            "A: How much is this?",
+            "B: 50 yuan."
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Ordering Food",
+        "description": "Ordering food at a restaurant.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "请问有什么推荐的吗？",
+                "pingyin": "Qing wen you shenme tuijian de ma?"
+            },
+            {
+                "speaker": "B",
+                "text": "我们的招牌菜是红烧牛肉。",
+                "pingyin": "Wo men de zhaopai cai shi hongshao niurou."
+            }
+        ],
+        "translation": [
+            "A: Do you have any recommendations?",
+            "B: Our signature dish is braised beef."
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Asking for Directions",
+        "description": "Asking how to get to a specific place.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "请问，地铁站怎么走？",
+                "pingyin": "Qing wen, ditiezhan zenme zou?"
+            },
+            {
+                "speaker": "B",
+                "text": "一直走然后左转。",
+                "pingyin": "Yi zhi zou ran hou zuo zhuan."
+            }
+        ],
+        "translation": [
+            "A: Excuse me, how can I get to the subway station?",
+            "B: Go straight and then turn left."
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Making a Reservation",
+        "description": "Booking a table at a restaurant.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "你好，我想订一个四人桌。",
+                "pingyin": "Ni hao, wo xiang ding yi ge si ren zhuo."
+            },
+            {
+                "speaker": "B",
+                "text": "好的，请问是今天晚上吗？",
+                "pingyin": "Hao de, qing wen shi jintian wanshang ma?"
+            }
+        ],
+        "translation": [
+            "A: Hello, I’d like to book a table for four.",
+            "B: Sure, is it for tonight?"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Greeting a Friend",
+        "description": "Meeting a friend after a long time.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "好久不见，你最近怎么样？",
+                "pingyin": "Hao jiu bu jian, ni zuijin zenmeyang?"
+            },
+            {
+                "speaker": "B",
+                "text": "我很好，你呢？",
+                "pingyin": "Wo hen hao, ni ne?"
+            }
+        ],
+        "translation": [
+            "A: Long time no see, how have you been?",
+            "B: I'm great, how about you?"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Asking for Help",
+        "description": "Asking for help in an emergency.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "不好意思，可以帮我一下吗？",
+                "pingyin": "Bu haoyisi, keyi bang wo yi xia ma?"
+            },
+            {
+                "speaker": "B",
+                "text": "当然，怎么了？",
+                "pingyin": "Dangran, zenme le?"
+            }
+        ],
+        "translation": [
+            "A: Excuse me, can you help me?",
+            "B: Of course, what’s wrong?"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Making a Phone Call",
+        "description": "Calling to ask about something.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "你好，请问你们几点关门？",
+                "pingyin": "Ni hao, qing wen nimen ji dian guanmen?"
+            },
+            {
+                "speaker": "B",
+                "text": "我们晚上九点关门。",
+                "pingyin": "Wo men wanshang jiu dian guanmen."
+            }
+        ],
+        "translation": [
+            "A: Hello, what time do you close?",
+            "B: We close at 9 PM."
+        ]
+    },
+    {
+        "id": 10,
+        "title": "At the Doctor's",
+        "description": "Explaining your symptoms to a doctor.",
+        "dialog": [
+            {
+                "speaker": "A",
+                "text": "医生，我头痛得很厉害。",
+                "pingyin": "Yi sheng, wo tou tong de hen lihai."
+            },
+            {
+                "speaker": "B",
+                "text": "好的，我帮你检查一下。",
+                "pingyin": "Hao de, wo bang ni jiancha yi xia."
+            }
+        ],
+        "translation": [
+            "A: Doctor, I have a severe headache.",
+            "B: Okay, let me check for you."
+        ]
+    }
+]
